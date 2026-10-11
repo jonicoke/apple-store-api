@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Apple Store API
 
 Aplicación de comercio electrónico desarrollada con React y TypeScript, basada en una tienda de productos Apple y orientada a la integración con APIs REST para obtener información de productos de forma dinámica.
