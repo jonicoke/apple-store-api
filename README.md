@@ -1,59 +1,78 @@
 <<<<<<< HEAD
-# Apple Store - TP Construcción de Interfaces de Usuario
+# Apple Store API
 
-## 📝 Descripción del Proyecto
-Este proyecto es una plataforma de comercio electrónico desarrollada en **React** y compilada con **Vite**, diseñada específicamente para la materia *Construcción de Interfaces de Usuario* de la **Universidad Nacional de Hurlingham (UNAHUR)**.
+Aplicación de comercio electrónico desarrollada con React y TypeScript, basada en una tienda de productos Apple y orientada a la integración con APIs REST para obtener información de productos de forma dinámica.
 
-La aplicación simula la experiencia completa de una tienda online de dispositivos móviles y accesorios Apple. Cuenta con una interfaz moderna, fluida y totalmente **responsive** (adaptable a celulares, tablets y computadoras) utilizando **Bootstrap**.
+El proyecto parte de una aplicación académica desarrollada para la materia Construcción de Interfaces de Usuario (UNAHUR) y evoluciona hacia una implementación que busca incorporar datos de productos provenientes de la API de Mercado Libre.
 
----
+Características
 
-## 🚀 Funcionalidades Principales
-* **Página de Inicio:** Presentación estética de la marca con banners representativos y acceso directo al catálogo.
-* **Catálogo Dinámico:** Renderizado de productos desde un array de objetos con control estricto de stock (bloqueo de botones si el stock es 0).
-* **Vista de Detalle:** Rutas dinámicas para explorar las características técnicas de cada iPhone.
-* **Carrito de Compras Completo:** Gestión de productos en tiempo real, cálculo automatizado de subtotales, totales y cantidades.
-* **Filtros y Buscador:** Búsqueda funcional de productos por nombre y categorías.
-* **Formulario de Checkout Controlado:** Formulario de contacto con manejo de estado (`useState`), validaciones en tiempo real con Expresiones Regulares (RegEx) para nombre y teléfono, y bloqueo de envío en caso de carrito vacío.
+Catálogo de productos: visualización de productos en una interfaz de tienda online.
 
----
+Detalle de productos: navegación entre el catálogo y las páginas de detalle.
 
-## 🛠️ Tecnologías Utilizadas
-* [React](https://react.dev/) - Biblioteca de JavaScript para construir interfaces de usuario.
-* [Vite](https://vitejs.dev/) - Entorno de desarrollo rápido para el frontend.
-* [React Router DOM](https://reactrouter.com/) - Gestión de enrutamiento dinámico sin recarga de página.
-* [Bootstrap](https://getbootstrap.com/) - Framework CSS para el diseño adaptativo y componentes visuales.
-* JavaScript (ES6+) / HTML5 / CSS3
+Carrito de compras: gestión de productos, cantidades y totales.
 
----
+Búsqueda y filtros: herramientas para facilitar la exploración del catálogo.
 
-## 📦 Instrucciones de Instalación y Ejecución
+Integración con API REST: incorporación progresiva de datos externos mediante la API de Mercado Libre.
 
-Para clonar y correr este proyecto de forma local en tu computadora, seguí estos pasos:
+Las funcionalidades de integración con Mercado Libre se irán incorporando durante el desarrollo.
 
-1. Clonar el repositorio:
-git clone https://github.com/Brandonduce67/tienda-iphones-react.git
+Tecnologías
 
-2. Ingresar a la carpeta del proyecto:
-cd tienda-iphones-react
+React
 
-3. Instalar las dependencias (node_modules):
+TypeScript
+
+Vite
+
+React Router DOM
+
+Bootstrap
+
+HTML5 y CSS3
+
+API REST de Mercado Libre (integración en desarrollo)
+
+Instalación y ejecución
+
+Requisitos previos
+
+Node.js
+
+npm
+
+Pasos
+
+Clonar el repositorio:
+
+git clone https://github.com/jonicoke/apple-store-api.git
+
+Ingresar al directorio:
+
+cd apple-store-api
+
+Instalar las dependencias:
+
 npm install
 
-4. Iniciar el servidor de desarrollo local:
+Iniciar el servidor de desarrollo:
+
 npm run dev
 
-5. Abrir el navegador en la dirección local que indique la terminal (usualmente http://localhost:5173).
+Abrir en el navegador la URL que indique la terminal, normalmente http://localhost:5173.
 
----
+Objetivo del proyecto
 
-## 👥 Integrantes del Grupo
-* Brandon Duce       - Licenciatura en Informática (UNAHUR)
-* Alan Gonzalez      - Licenciatura en Informática (UNAHUR)
-* Agustin Olavarria  - Licenciatura en Informática (UNAHUR)
-* Damian Haberkorn   - Licenciatura en Informática (UNAHUR)
-* Jonathan Giacomini - Licenciatura en Informática (UNAHUR)
-=======
-# apple-store
-Proyecto universitario para el primer parcial de CIU donde se implementa una página web con carrito.
->>>>>>> cc0aeb2cd10a4e39da5b838e570da49d3b7740ad
+Explorar la integración de servicios externos en una aplicación frontend, trabajando con APIs REST, consumo asíncrono de datos y manejo de estados de carga y error, mientras se mantiene una experiencia de usuario clara y adaptable a distintos dispositivos.
+
+Autor
+
+Jonathan Giacomini
+
+GitHub: @jonicoke
+
+LinkedIn: Jonathan Giacomini
+
+Portfolio: coke-portfolio.vercel.app
